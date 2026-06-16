@@ -1,5 +1,4 @@
 import { SpiderCursor } from '@/components/ui/spider-cursor'
-import SmoothScrollHero from '@/components/ui/smooth-scroll-hero'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
@@ -53,15 +52,6 @@ export default function Home() {
       </div>
 
       <Projects />
-
-      {/* Cinematic scroll transition between Projects and Achievements */}
-      <SmoothScrollHero
-        scrollHeight={1000}
-        desktopImage="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
-        mobileImage="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1470&auto=format&fit=crop"
-        initialClipPercentage={25}
-        finalClipPercentage={75}
-      />
 
       <Achievements />
 
