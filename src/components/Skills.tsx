@@ -138,23 +138,6 @@ export default function Skills() {
                 </div>
               </div>
 
-              {/* Skill tags */}
-              <div className="flex flex-wrap gap-2">
-                {cat.skills.map((skill) => (
-                  <span
-                    key={skill}
-                    className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium font-body"
-                    style={{
-                      background: `${cat.color}0d`,
-                      border: `1px solid ${cat.color}20`,
-                      color: '#64748b',
-                    }}
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-
               {/* Accent line */}
               <div
                 className="h-px rounded-full mt-auto"
