@@ -52,28 +52,16 @@ const skillCategories = [
     skills: ['Python 3', 'Automation Scripts', 'Data Processing', 'API Integration', 'Web Scraping', 'Libraries & Frameworks'],
   },
   {
-    id: 'speaking',
-    label: 'Public Speaking',
-    description: 'Commanding stages, hosting events, and inspiring audiences.',
-    color: '#10b981',
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
-      </svg>
-    ),
-    skills: ['Stage Presence', 'Storytelling', 'Event Hosting', 'Debate', 'Presentations', 'Team Leadership', 'Mentoring'],
-  },
-  {
-    id: 'startup',
-    label: 'Startup Development',
-    description: 'Building products, teams, and companies from the ground up.',
+    id: 'automation',
+    label: 'AI Automations',
+    description: 'Automating workflows and scaling operations with intelligent AI systems.',
     color: '#f97316',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
       </svg>
     ),
-    skills: ['Product Strategy', 'Brand Building', 'Team Leadership', 'Pitching', 'MVP Development', 'Go-to-Market', 'Client Relations'],
+    skills: ['n8n', 'Make', 'Zapier', 'AI Agents', 'Workflow Design', 'API Integration', 'Process Automation'],
   },
 ]
 
@@ -101,7 +89,7 @@ export default function Skills() {
               style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: 1.1, letterSpacing: '-0.02em' }}
             >
               Built across{' '}
-              <span className="gradient-text italic">six disciplines</span>.
+              <span className="gradient-text italic">five disciplines</span>.
             </h2>
           </div>
           <p className="text-sm font-body max-w-xs" style={{ color: '#64748b', lineHeight: 1.7 }}>
